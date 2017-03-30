@@ -30,7 +30,6 @@ public class Calculator extends Activity implements View.OnClickListener {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calculator);
-        printToast("Started application");
         initButtons();
         setUpNumberButtonListener();
     }
